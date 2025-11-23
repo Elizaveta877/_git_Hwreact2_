@@ -1,16 +1,34 @@
-# React + Vite
+# ⚛️ React Counter Demo (Домашнє Завдання 1)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 📝 Короткий опис проекту
 
-Currently, two official plugins are available:
+Цей проект є простим демонстраційним додатком, створеним на базі **React** та **Vite**, як частина другого домашнього завдання.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Основна мета проекту — продемонструвати розуміння та правильне використання двох основних типів функціональних компонентів у сучасній архітектурі React:
 
-## React Compiler
+1.  **Stateful Компонент (`App`):** Використовує хук `useState` для управління центральним станом — лічильником (`count`).
+2.  **Stateless Компоненти (`Label`, `Button`):** Отримують дані через пропси та відповідають лише за відображення або виконання функцій, переданих від батьківського компонента.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 🚀 Інструкції зі встановлення та запуску
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Щоб запустити цей проект локально, виконайте наступні кроки.
+Встановлення залежностей
+У кореневій директорії проекту встановіть необхідні залежності :
+
+npm install
+# або
+yarn
+
+Запуск проекту
+Запустіть додаток у режимі розробки:
+
+
+npm run dev
+# або
+yarn dev
+
+Посилання на демо версію:
+git-hwreact2.vercel.app
+
